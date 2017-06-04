@@ -1,0 +1,27 @@
+{
+  "name": "tumbledown",
+  "version": "1.0.0",
+  "description": "Post markdown to Tumblr easily",
+  "bin": {
+    "tumbleweed": "bin/tumbleweed.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dottorblaster/tumbledown.git"
+  },
+  "keywords": [
+    "tumblr",
+    "markdown",
+    "cli"
+  ],
+  "author": "Alessio Biancalana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dottorblaster/tumbledown/issues"
+  },
+  "homepage": "https://github.com/dottorblaster/tumbledown#readme"
+}
