@@ -12,3 +12,5 @@ cli
     .command('post')
     .description('Post a markdown file')
     .action(lib.post)
+
+cli.parse(process.argv)
