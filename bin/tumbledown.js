@@ -9,13 +9,13 @@ cli
 	.action(lib.login)
 
 cli
-	.command('showtokens')
-	.description('Shows off tokens for API access')
-	.action(lib.showtokens)
+	.command('post <path>')
+	.description('Post a markdown file')
+	.option('-t, --title [string]', 'Title for the post')
+	.action(lib.post)
 
 cli
-	.command('post')
-	.description('Post a markdown file')
-	.action(lib.post)
+	.version('1.0.0')
+
 
 cli.parse(process.argv)
