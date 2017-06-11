@@ -9,6 +9,11 @@ cli
 	.action(lib.login)
 
 cli
+	.command('showtokens')
+	.description('Shows off tokens for API access')
+	.action(lib.showtokens)
+
+cli
 	.command('post')
 	.description('Post a markdown file')
 	.action(lib.post)
