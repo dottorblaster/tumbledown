@@ -1,6 +1,6 @@
 {
   "name": "tumbledown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Post markdown to Tumblr easily",
   "bin": {
     "tumbleweed": "bin/tumbleweed.js"
@@ -31,7 +31,6 @@
     "commander": "^2.9.0",
     "conf": "^1.1.1",
     "inquirer": "^3.1.0",
-    "prompt": "^1.0.0",
     "tumblr.js": "^1.1.1"
   },
   "devDependencies": {
