@@ -1,9 +1,9 @@
 {
   "name": "tumbledown",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Post markdown to Tumblr easily",
   "bin": {
-    "tumbleweed": "bin/tumbleweed.js"
+    "tumbledown": "bin/tumbledown.js"
   },
   "main": "index.js",
   "scripts": {
