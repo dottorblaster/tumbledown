@@ -1,6 +1,6 @@
 {
   "name": "tumbledown",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Post markdown to Tumblr easily",
   "bin": {
     "tumbledown": "bin/tumbledown.js"
