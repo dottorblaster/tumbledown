@@ -5,7 +5,7 @@ var lib = require('../lib/index')
 
 cli
 	.command('login')
-	.description('Setup your tokens for use with Tumbleweed')
+	.description('Setup your tokens for use with Tumbledown')
 	.action(lib.login)
 
 cli
