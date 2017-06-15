@@ -15,7 +15,9 @@ cli
 	.action(lib.post)
 
 cli
-	.version('1.0.0')
+	.version('1.0.6')
+	.parse(process.argv)
 
-
-cli.parse(process.argv)
+if (!process.argv.slice(2).length) {
+	cli.outputHelp()
+}
