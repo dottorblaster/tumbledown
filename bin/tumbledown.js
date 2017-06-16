@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+'use strict';
+
 const cli = require('commander')
 var lib = require('../lib/index')
 
