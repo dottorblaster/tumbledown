@@ -15,7 +15,7 @@ cli
 	.action(lib.post)
 
 cli
-	.version('1.0.6')
+	.version(require('../package.json').version)
 	.parse(process.argv)
 
 if (!process.argv.slice(2).length) {
