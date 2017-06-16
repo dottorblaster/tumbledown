@@ -5,7 +5,7 @@ Easily post markdown files to Tumblr.
 Just issue:
 
 ```
-npm install -g tumbledown
+$ npm install -g tumbledown
 ```
 
 ## Usage
@@ -30,3 +30,4 @@ $ tumbledown login
 
 You will be asked for your Tumblr API keys, and then for the blog post the contents on. That's it.
 
+For details about authentication, have a look at the [official documentation](https://www.tumblr.com/docs/en/api/v2#auth) and at the [tumblr.js docset](https://github.com/tumblr/tumblr.js#authentication) too. I'm looking forward to implement a new login prompt using the OAuth scheme.
